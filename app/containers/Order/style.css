@@ -1,0 +1,136 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.main_content{
+    border:0.5px solid black;
+    /* width: 780px;
+    height: 1000px; */
+     width: 453px;
+    height: 566px;
+    display:grid;
+    grid-template-rows: 1fr 2fr 2fr 1.8fr 3fr;
+
+}
+.col_6{
+    border:0.5px solid black;
+    padding: 8px;
+}
+.col_6_{
+    border:0.5px solid black;
+    padding:16px 16px;
+    text-align: center;
+    font-size:13px;
+}
+.col_12{
+    border:0.5px solid black;
+    padding: 8px;
+}
+.col_4{
+    border:0.5px solid black;
+    text-align: center;
+    padding: 8px;
+}
+.line_3 .col_4{
+    padding: 8px;
+}
+.col_8{
+    border:0.5px solid black;
+    padding: 8px;
+}
+.col_8 img{
+    /*width:80%;*/
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0px auto;
+    margin-top: 16px;
+}
+.line_1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px;
+}
+.line_1 .col_4_{
+    text-align: center;
+}
+.line_2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.line_2_item{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+.line_3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.line_4{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.line_5{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.big_text{
+    font-size:60px;
+    font-weight:bold;
+   
+}
+.t_900{
+    font-weight: 900;
+    font-size: 15px;
+}
+.fl_end{
+    float: right;
+    margin-right: 12px;
+}
+.name_size{
+    font-size:15px;
+}
+.normal_t{
+    font-size:12px;
+}
+.nun_size_1{
+    font-size:13px;
+}
+.col_4_1{
+    border:0.5px solid black;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 4px;
+}
+.col_4_2{
+    border:0.5px solid black;
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    padding: 4px;
+}
+.nun_size{
+    font-size: 21px;
+}
+.mg_16{
+    margin:8px 0px;
+    font-size: 11px;
+}
+.fl_end{
+    font-size: 10px;
+}
+.svg {
+    margin-top: -2%;
+}
+
+.print-source {
+  display: none;
+}
+
+body > .print-source {
+  display: block;
+}
+
+@media print {
+  .print-source {
+    display: block;
+  }
+}

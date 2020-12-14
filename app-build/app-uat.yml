@@ -1,0 +1,9 @@
+apps:
+  - script : ./server.js
+    name: HH-UAT
+    instances: 1
+    exec_mode: fork
+    env :
+      PORT_ENV: 'UAT'
+      PORT: 6002
+    node_args: "--max-old-space-size=4048"
